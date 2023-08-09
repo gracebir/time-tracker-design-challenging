@@ -18,6 +18,9 @@ export default {
         "dark-blue":"var(--dark-blue)",
         "desaturated-blue":"var(--desaturated-blue)",
         "pale-blue":"var(--pale-Blue)"
+      },
+      fontFamily: {
+        'rubik': ['Rubik', 'sans-serif']
       }
     },
   },
