@@ -21,7 +21,7 @@ const ProfileCard = ({ setTimeframe, timeframe}) => {
             <button 
             key={frame.title} 
             onClick={()=> handleClick(frame.title)} 
-            className={`${frame.title === timeframe ? "text-dark-blue":"text-desaturated-blue"} text-lg hover:text-gray-200 duration-200`}>
+            className={`${frame.title === timeframe ? "text-gray-200":"text-desaturated-blue"} text-lg hover:text-gray-200 duration-200`}>
               {frame.desc}
             </button>
           ))
