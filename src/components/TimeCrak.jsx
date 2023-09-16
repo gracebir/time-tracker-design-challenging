@@ -1,4 +1,5 @@
 import React from 'react'
+import { timeFramer } from '../utils/data'
 
 const TimeCrak = ({ icon, current, previous, title, timeFrame, bgColor }) => {
   return (
@@ -14,10 +15,10 @@ const TimeCrak = ({ icon, current, previous, title, timeFrame, bgColor }) => {
           </div>
           <h3 className='text-3xl lg:text-5xl font-light'>{current}hrs</h3>
           <div className='flex justify-end items-center'>
-            <span className='block lg:hidden text-pale-blue'>Last {timeFrame} - {previous}hrs</span>
+            <span className='block lg:hidden text-pale-blue whitespace-nowrap'>Last {timeFramer.timeframe[timeFrame]} - {previous}hrs</span>
           </div>
         </div>
-        <span className='hidden lg:block text-desaturated-blue'>Last {timeFrame} - {previous}hrs</span>
+        <span className='hidden lg:block text-desaturated-blue whitespace-nowrap'>Last {timeFramer.timeframe[timeFrame]} - {previous}hrs</span>
       </div>
     </div>
   )
