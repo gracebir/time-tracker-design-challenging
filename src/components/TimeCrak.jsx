@@ -12,12 +12,12 @@ const TimeCrak = ({ icon, current, previous, title, timeFrame, bgColor }) => {
           <div className='flex justify-end'>
             <span className='float-left font-medium text-xl tracking-widest'>...</span>
           </div>
-          <h3 className='text-3xl lg:text-5xl font-light'>{current}</h3>
+          <h3 className='text-3xl lg:text-5xl font-light'>{current}hrs</h3>
           <div className='flex justify-end items-center'>
-            <span className='block lg:hidden text-pale-blue'>Last {timeFrame} - {previous}</span>
+            <span className='block lg:hidden text-pale-blue'>Last {timeFrame} - {previous}hrs</span>
           </div>
         </div>
-        <span className='hidden lg:block text-desaturated-blue'>Last {timeFrame} - {previous}</span>
+        <span className='hidden lg:block text-desaturated-blue'>Last {timeFrame} - {previous}hrs</span>
       </div>
     </div>
   )
