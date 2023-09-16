@@ -47,3 +47,11 @@ export const timeFrames = [
         desc: "Monthly"
     }
 ]
+
+export const timeFramer = {
+    timeframe: {
+        daily: "day",
+        weekly: "week",
+        monthly: "month"
+    }
+}
