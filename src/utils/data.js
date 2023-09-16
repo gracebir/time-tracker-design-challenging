@@ -32,3 +32,18 @@ export const staticTimeAssets = [
         bgColor: "bg-care-color"
     }
 ]
+
+export const timeFrames = [
+    {
+        title: "daily",
+        desc: "Daily"
+    },
+    {
+        title: "weekly",
+        desc: "Weekly"
+    },
+    {
+        title: "monthly",
+        desc: "Monthly"
+    }
+]
